@@ -1,0 +1,115 @@
+body,
+html {
+  height: 100%;
+}
+
+a {
+  color: #328cc1;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("../img/background1.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+hr {
+  border-top: 5px solid white;
+  /* color: white;
+  height: 2px; */
+}
+
+/* Start Color Scheme */
+.prussianBlue {
+  color: #0b3c5d;
+}
+
+.skyBlue {
+  color: #328cc1;
+}
+
+.goldLeaf {
+  color: #d9b310;
+}
+
+.ivoryBlack {
+  color: #1d2731;
+}
+/* End Color Scheme */
+
+.logoFont {
+  font-family: "Archivo Black", sans-serif;
+}
+
+.logoDiv {
+  padding: 20px;
+  color: white;
+  background-color: #0b3c5d;
+  opacity: 0.75;
+}
+
+.quote {
+  margin-top: 400px;
+  width: 100%;
+  background-color: #1d2731;
+  opacity: 0.75;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 1.5em;
+  height: 25%;
+}
+
+.aboutDiv {
+  padding: 20px;
+}
+
+/* Parallax Footer CSS */
+#site-content {
+  min-height: 100%;
+  min-height: 100vh;
+  /* padding-top: 65px; */
+  position: relative;
+  z-index: 1;
+
+  -webkit-box-shadow: #000 0 7px 35px 0;
+  -moz-box-shadow: #000 0 7px 35px 0;
+  box-shadow: #000 0 7px 35px 0;
+}
+
+#site-footer {
+  padding: 25px 0;
+  font-size: 85%;
+  background-color: #2a2a2a;
+  color: white;
+  position: fixed;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#footerCastleLogo {
+  height: 150px;
+  width: auto;
+}
+
+.soc-item {
+  margin-left: 10px;
+  float: right;
+}
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
