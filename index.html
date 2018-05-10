@@ -11,8 +11,9 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9"
         crossorigin="anonymous">
 
-    <!-- Google Fontas CDN -->
+    <!-- Google Fonts CDN -->
     <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
 
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
@@ -26,7 +27,7 @@
 <body>
     <div class="wrapper" id="site-content">
         <!-- Start HTML Page Body -->
-        <div class="parallax text-center">
+        <div class="parallaxTitle text-center">
             <div class="logoDiv">
                 <h1 class="display-3 logoFont">PAUL LAIRD</h1>
                 <p class="lead logoFont goldLeaf">Professional Web Developer</p>
@@ -43,17 +44,180 @@
                 <hr width="10%">
             </div>
         </div>
-        <div class="aboutDiv">
+
+        <!-- Start About Me -->
+        <div class="aboutDiv" id="site-about">
             <div class="container">
                 <div class="col-12">
                     <h2 class="text-center">My Story</h2>
-                    <p></p>
+                    <img src="assets/img/paul.png" alt="Paul Competing in the Tactical Strength Challenge" class="float-left" id="aboutmePhoto">
+                    <p>Since age 12 when I developed my first app, I have been passionate about problem solving and innovation.
+                        Throughout my professional career I've cultivated a deep understanding of how things work, and more
+                        importantly can convey that into simple and concise instructions (for both humans and computers to
+                        understand). My passion for creation and problem solving has lead me to where I am today as a web
+                        developer.
+                    </p>
+                    <p>Presently I develop web apps ranging from full stack applications, websites</p>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non ultricies lorem. Vivamus tempus lacinia
+                        rutrum. Integer ut tortor ac est eleifend porta. Nullam ut cursus ex. Phasellus viverra viverra mauris
+                        in commodo. Aenean sit amet lobortis sapien. In orci orci, sollicitudin vel leo id, vestibulum volutpat
+                        elit. Cras tincidunt vulputate volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et
+                        ultrices posuere cubilia Curae; Vivamus vel lacus ut nunc gravida auctor. Proin pellentesque ac neque
+                        eu dictum. Donec ut mi finibus, fermentum metus ac, fringilla dolor. Proin vehicula ultrices lacus
+                        quis mattis. Nam facilisis quam ut scelerisque pharetra. Etiam vel tellus enim.</p>
                 </div>
             </div>
         </div>
+        <!-- End about me -->
+
+        <!-- Start Portfolio -->
+        <div class="parallaxPortfolio text-center">
+            <div class="portfolioDiv">
+                <h1 class="display-3 logoFont">My Work</h1>
+                <p class="lead logoFont goldLeaf">Projects that display design, logic and functionality</p>
+            </div>
+
+        </div>
+        <div id="site-portfolio">
+            <div class="row">
+
+                <!-- Train Tracker -->
+                <div class="col-sm">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="assets/img/traintracker.jpg" alt="Train Tracker">
+                        <div class="card-body">
+                            <h5 class="card-title">Train Scheduler</h5>
+                            <p class="card-text">Track and display train data from anywhere. Add, update or remove trains from the schedule.</p>
+                            <span class="portfolioBtn">
+                                <a href="https://paullnh.github.io/TrainTracker/" target="_blank" class="btn btn-primary">PAGE</a>
+                                <a href="https://github.com/PaulLNH/TrainTracker" target="_blank" class="btn btn-primary">SOURCE</a>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Colosseum RPG -->
+                <div class="col-sm">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="assets/img/colosseum.png" alt="Colosseum RPG">
+                        <div class="card-body">
+                            <h5 class="card-title">Colosseum RPG</h5>
+                            <p class="card-text">Simple single player two button RPG game. Defeate all of your enemies.</p>
+                            <span class="portfolioBtn">
+                                <a href="https://paullnh.github.io/Colosseum-RPG/" target="_blank" class="btn btn-primary">PAGE</a>
+                                <a href="https://github.com/PaulLNH/Colosseum-RPG" target="_blank" class="btn btn-primary">SOURCE</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- GoT Trivia Game Engine -->
+                <div class="col-sm">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="assets/img/trivia.png" alt="GoT Trivia">
+                        <div class="card-body">
+                            <h5 class="card-title">GoT Trivia</h5>
+                            <p class="card-text">Trivia game engine setup with a Game of Thrones JSON object file. Easily customizable with a
+                                couple variables.
+
+                            </p>
+                            <span class="portfolioBtn">
+                                <a href="https://paullnh.github.io/Trivia/" target="_blank" class="btn btn-primary">PAGE</a>
+                                <a href="https://github.com/PaulLNH/Trivia" target="_blank" class="btn btn-primary">SOURCE</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hangman -->
+                <div class="col-sm">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="assets/img/hangman.png" alt="Hangman game">
+                        <div class="card-body">
+                            <h5 class="card-title">Hangman game</h5>
+                            <p class="card-text">Classic Hangman game with Wild West word theme. Can you escape the gallows?</p>
+                            <span class="portfolioBtn">
+                                <a href="https://paullnh.github.io/Hangman-Game/" target="_blank" class="btn btn-primary">PAGE</a>
+                                <a href="https://github.com/PaulLNH/Hangman-Game" target="_blank" class="btn btn-primary">SOURCE</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Stream Scout -->
+                <div class="col-sm">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="assets/img/streamscout.png" alt="Stream Scout">
+                        <div class="card-body">
+                            <h5 class="card-title">Stream Scout</h5>
+                            <p class="card-text">Search YouTube or GIPHY and return 10 results, store your search results in history tab.</p>
+                            <span class="portfolioBtn">
+                                <a href="https://paullnh.github.io/Stream-Scout/" target="_blank" class="btn btn-primary">PAGE</a>
+                                <a href="https://github.com/PaulLNH/Stream-Scout" target="_blank" class="btn btn-primary">SOURCE</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tech Console -->
+                <div class="col-sm">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="assets/img/techconsole.jpg" alt="Tech Console">
+                        <div class="card-body">
+                            <h5 class="card-title">Tech Console</h5>
+                            <p class="card-text">Find networking events based on career and zipcode. No more guessing keywords to search!
+                            </p>
+                            <span class="portfolioBtn">
+                                <a href="https://paullnh.github.io/TechConsole/" target="_blank" class="btn btn-primary">PAGE</a>
+                                <a href="https://github.com/PaulLNH/TechConsole" target="_blank" class="btn btn-primary">SOURCE</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="row" id="techIcons">
+            <div class="techUsed">
+                <i class="fab fa-html5 fa-4x"></i>
+                <h4>HTML5</h4>
+            </div>
+            <div class="techUsed">
+                <i class="fab fa-css3-alt fa-4x"></i>
+                <h4>CSS3</h4>
+            </div>
+            <div class="techUsed">
+                <i class="fab fa-js-square fa-4x"></i>
+                <h4>JavaScript</h4>
+            </div>
+            <div class="techUsed">
+                <i class="fab fa-node-js fa-4x"></i>
+                <h4>Node.js</h4>
+            </div>
+            <div class="techUsed">
+                <i class="fab fa-react fa-4x"></i>
+                <h4>React</h4>
+            </div>
+            <!-- <div class="techUsed">
+                <i class="fas fa-chess-rook fa-4x"></i>
+                <h4>Logic</h4>
+            </div> -->
+        </div>
+        <!-- End portfolio -->
+
+        <div id="site-gradient">
+            <!-- Transitions from content into footer with transparent gradient and parallax footer -->
+        </div>
+    </div>
 
 
-        <!-- End HTML Page Body -->
+
+
+
+    <!-- End HTML Page Body -->
     </div>
 
 
@@ -70,14 +234,14 @@
 
                     <!--First column-->
                     <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 text-center">
-                        <img src="assets/img/castlelogo.png" id="footerCastleLogo">
+                        <img src="assets/img/RookLogo.png" id="footerCastleLogo">
 
                     </div>
                     <!--/.First column-->
 
                     <hr class="w-100 clearfix d-md-none">
                     <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                        <h6 class="text-uppercase mb-4 font-weight-bold">PAUL.LAIRD.codes</h6>
+                        <h6 class="text-uppercase mb-4 font-weight-bold">LAIRD.codes</h6>
                         <p>If you're looking for a professional web developer for your small business, personal portfolio, hobby
                             project, game idea, sports team or a larger full stack project contact me!</p>
                     </div>
