@@ -84,9 +84,18 @@ hr {
     font-family: "Archivo Black", sans-serif;
 }
 
+h1.logoFont {
+    font-size: 4.25em;
+}
+
+p.logoFont {
+    font-size: 1.25em;
+}
+
 .logoDiv {
-    margin-top: 56px;
+    /* margin-top: 56px; */
     padding: 20px;
+    padding-top: 90px;
     color: white;
     background-color: #0b3c5d;
     opacity: 0.75;
