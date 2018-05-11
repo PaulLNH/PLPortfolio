@@ -56,3 +56,5 @@ $('a[href*="#"]')
             }
         }
     });
+
+console.log("I knew I'd find you here. Send me an email and we'll talk. plaird83@gmail.com")

@@ -1,240 +1,248 @@
+html {
+    overflow-x: hidden;
+}
+
 body,
 html {
-  height: 100%;
-  background-color: #1d2731;
+    height: 100%;
+    background-color: #1d2731;
 }
 
 .text-primary {
-  color: #328cc1 !important;
+    color: #328cc1 !important;
 }
 
 li {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 a.text-primary:focus,
 a.text-primary:hover {
-  color: #d9b310 !important;
+    color: #d9b310 !important;
 }
 
 p {
-  color: white;
+    color: white;
 }
 
 h1,
 h2,
 h3,
 h4 {
-  color: white;
+    color: white;
 }
 
 hr {
-  border-top: 5px solid white;
+    border-top: 5px solid white;
 }
 
 /* Start Color Scheme */
 
 .prussianBlue {
-  color: #0b3c5d;
+    color: #0b3c5d;
 }
 
 .skyBlue {
-  color: #328cc1;
+    color: #328cc1;
 }
 
 .goldLeaf {
-  color: #d9b310;
+    color: #d9b310;
 }
 
 .ivoryBlack {
-  color: #1d2731;
+    color: #1d2731;
 }
 
 /* End Color Scheme */
 
 .parallaxTitle {
-  /* The image used */
-  background-image: url("../img/background1.jpg");
-  /* Full height */
-  height: 100%;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    /* The image used */
+    background-image: url("../img/background1.jpg");
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .parallaxPortfolio {
-  /* The image used */
-  background-image: url("../img/background3.jpg");
-  /* Full height */
-  height: 100%;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    /* The image used */
+    background-image: url("../img/background3.jpg");
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .logoFont {
-  font-family: "Archivo Black", sans-serif;
+    font-family: "Archivo Black", sans-serif;
 }
 
 .logoDiv {
-  margin-top: 56px;
-  padding: 20px;
-  color: white;
-  background-color: #0b3c5d;
-  opacity: 0.75;
+    margin-top: 56px;
+    padding: 20px;
+    color: white;
+    background-color: #0b3c5d;
+    opacity: 0.75;
 }
 
 .portfolioDiv {
-  padding: 20px;
-  color: white;
-  background-color: transparent;
-  /* background-color: #1d2731;
+    padding: 20px;
+    color: white;
+    background-color: transparent;
+    /* background-color: #1d2731;
   opacity: 0.75; */
-  padding: 60px;
+    padding: 60px;
 }
 
 .quote {
-  margin-top: 400px;
-  width: 100%;
-  background-color: #1d2731;
-  opacity: 0.75;
-  color: white;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-size: 1.5em;
-  height: 25%;
+    margin-top: 400px;
+    width: 100%;
+    background-color: #1d2731;
+    opacity: 0.75;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.5em;
+    height: 25%;
 }
 
 .aboutDiv {
-  padding: 20px;
+    padding: 20px;
 }
 
 .card {
-  background: #0b3c5d;
-  padding: 5px;
-  margin: 20px;
+    background: #0b3c5d;
+    padding: 5px;
+    margin: 20px;
 }
 
 .card-title {
-  color: #d9b310;
+    color: #d9b310;
 }
 
 .btn-primary {
-  margin-left: 10px;
-  margin-right: 10px;
-  background-color: #328cc1;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #328cc1;
 }
 
 .card-text {
-  color: white;
+    color: white;
 }
 
 .portfolioBtn {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .techUsed {
-  margin: 20px;
-  color: white;
+    margin: 20px;
+    color: white;
+}
+
+#callToActionCard {
+    border: #d9b310 solid 4px;
 }
 
 #navLogo {
-  color: #328cc1;
+    color: #328cc1;
 }
 
 #aboutmePhoto {
-  width: 250px;
-  height: auto;
-  margin: 10px;
+    width: 250px;
+    height: auto;
+    margin: 10px;
 }
 
 #site-content {
-  min-height: 100%;
-  min-height: 100vh;
-  position: relative;
-  z-index: 1;
+    min-height: 100%;
+    min-height: 100vh;
+    position: relative;
+    z-index: 1;
 }
 
 #site-about {
-  position: relative;
-  z-index: 1;
-  background-color: #1d2731;
+    position: relative;
+    z-index: 1;
+    background-color: #1d2731;
 }
 
 #site-portfolio {
-  position: relative;
-  z-index: 1;
-  background-color: #1d2731;
-  padding: 20px;
-  padding-left: 40px;
-  margin: auto;
-  display: flex;
-  justify-content: center;
+    position: relative;
+    z-index: 1;
+    background-color: #1d2731;
+    padding: 20px;
+    padding-left: 40px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
 }
 
 #techIcons {
-  position: relative;
-  z-index: 1;
-  background-color: #1d2731;
-  padding: 20px;
-  padding-left: 40px;
-  margin: auto;
-  display: flex;
-  justify-content: center;
+    position: relative;
+    z-index: 1;
+    background-color: #1d2731;
+    padding: 20px;
+    padding-left: 40px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
 }
 
 #site-gradient {
-  position: relative;
-  z-index: 1;
-  height: 200px;
-  background: #1d2731;
-  /* For browsers that do not support gradients */
-  background: linear-gradient(to top, rgba(255, 0, 0, 0), #1d2731);
-  /* Standard syntax (must be last) */
+    position: relative;
+    z-index: 1;
+    height: 200px;
+    background: #1d2731;
+    /* For browsers that do not support gradients */
+    background: linear-gradient(to top, rgba(255, 0, 0, 0), #1d2731);
+    /* Standard syntax (must be last) */
 }
 
 #site-footer {
-  padding: 25px 0;
-  font-size: 85%;
-  background-color: #2a2a2a;
-  color: white;
-  position: fixed;
-  z-index: -1;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  -webkit-box-shadow: #000 0 7px 35px 0;
-  -moz-box-shadow: #000 0 7px 35px 0;
-  box-shadow: #000 0 7px 35px 0;
+    padding: 25px 0;
+    font-size: 85%;
+    background-color: #2a2a2a;
+    color: white;
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-box-shadow: #000 0 7px 35px 0;
+    -moz-box-shadow: #000 0 7px 35px 0;
+    box-shadow: #000 0 7px 35px 0;
 }
 
 #footerCastleLogo {
-  height: 150px;
-  width: auto;
+    height: 150px;
+    width: auto;
 }
 
 .soc-item {
-  margin-left: 10px;
-  float: right;
+    margin-left: 10px;
+    float: right;
 }
 
 #socialIcons a {
-  color: #328cc1;
+    color: #328cc1;
 }
 
 #socialIcons a:hover {
-  color: #d9b310;
+    color: #d9b310;
 }
 
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 
 @media only screen and (max-device-width: 1366px) {
-  .parallax {
-    background-attachment: scroll;
-  }
+    .parallax {
+        background-attachment: scroll;
+    }
 }
